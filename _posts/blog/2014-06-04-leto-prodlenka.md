@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Все новое и красивое
+title: Лето-Лагерь
 category: blog
 ---
 <article>
