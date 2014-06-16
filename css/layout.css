@@ -14,7 +14,7 @@
 #container { width: 30em; }
 	
 }
-body {
+body, html {
     background: url(http://subtlepatterns.com/patterns/sativa.png);
 }
 .header { height: 4em; }
