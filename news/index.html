@@ -2,6 +2,38 @@
 layout: default
 title: Новости
 ---
+<div class="ill" id="oc">
+<div class="bs-example">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3" class="active"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item">
+          <img  alt="choreography" src="/img/choreography.jpg">
+        </div>
+        <div class="item">
+          <img  alt="hip-hop" src="/img/hip-hop.jpg">
+        </div>
+        <div class="item">
+          <img  alt="yoga" src="/img/yoga.jpg">
+        </div>
+        <div class="item active">
+          <img  alt="music" src="/img/music.jpg">
+        </div>
+      </div>
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+  </div>
+</div>
 <ul>
 	{% for news in site.categories.news %}
 		<li>
@@ -10,3 +42,4 @@ title: Новости
 		</li>
 	{% endfor %}
 </ul>
+ 
